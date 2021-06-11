@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>survey</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div id="main">
+        <header>
+            <h1 id="title">Free Survey Form Page</h1>
+            <p id="description">Thank you for taking the time to help us improve the platform</p>
+        </header>
+        <div>
+            <form action="" id="survey-form">
+                <div id="form-group">
+                    <label id="name-label" for="name">Name</label><br>
+                    <input type="text" name="name" id="name" placeholder="Enter your name" required><br>
+                    <label id="email-label" for="email">Email</label><br>
+                    <input type="email" name="email" id="email" placeholder="Enter your Email" required><br>
+                    <label id="number-label" for="number">Age (optional)</label><br>
+                    <input type="number" name="age" id="number" placeholder="Age" min="12" max="99">
+                </div>
+                <br>
+                <div id="form-group">
+                    <p>Which option best describes your current role?</p>
+                    <select name="role" id="dropdown">
+                        <option disabled selected value>Select any one </option>
+                        <option value="student">Student</option>
+                        <option value="high-school">High School</option>
+                        <option value="under-graduate">Under Graduate University</option>
+                        <option value="post-graduate">Post Graduate University</option>
+                        <option value="work">Work</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <br>
+                <div id="form-group">
+                    <p>Would you recommend this survey to a friend?</p>
+                    <input type="radio" name="user-recommend" id="definitely" value="definitely">
+                    <label for="definitely">Definitely</label>
+                    <br>
+                    <input type="radio" name="user-recommend" id="maybe" value="maybe">
+                    <label for="maybe">Maybe</label>
+                    <br>
+                    <input type="radio" name="user-recommend" id="not-sure" value="not-sure">
+                    <label for="not-sure">Not sure</label>
+                    <br>
+                </div>
+                <br>
+                <div id="form-group">
+                    <p>What languages are you fluent in?</p>
+                    <input type="checkbox" name="language" value="spanish" id="spanish">
+                    <label for="spanish">Spanish</label>
+                    <br>
+                    <input type="checkbox" name="language" value="french" id="french">
+                    <label for="french">French</label>
+                    <br>
+                    <input type="checkbox" name="language" value="english" id="english">
+                    <label for="english">English</label>
+                    <br>
+                    <input type="checkbox" name="language" value="hindi" id="hindi">
+                    <label for="hindi">Hindi</label>
+                    <br>
+                    <input type="checkbox" name="language" value="russian" id="russian">
+                    <label for="russian">Russian</label>
+                    <br>
+                    <input type="checkbox" name="language" value="portuguese" id="portuguese">
+                    <label for="portuguese">Portuguese</label>
+                    <br>
+                    <input type="checkbox" name="language" value="bengali" id="bengali">
+                    <label for="bengali">Bengali</label>
+                    <br>
+                    <input type="checkbox" name="language" value="arabic" id="arabic">
+                    <label for="arabic">Arabic</label>
+                    <br>
+                    <input type="checkbox" name="language" value="mandarin-chinese" id="mandarin-chinese">
+                    <label for="mandarin-chinese">Mandarin Chinese</label>
+                    <br>
+                    <input type="checkbox" name="language" value="indonesian" id="indonesian">
+                    <label for="indonesian">Indonesian</label>
+                    <br>
+                </div>
+                <div id="form-group">
+                    <p>Any comments or suggestions?</p>
+                    <textarea name="comment" id="" cols="20" rows="10" placeholder="Enter your comment here..."></textarea>
+                </div>
+                <div id="form-group">
+                    <button type="submit" id="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
